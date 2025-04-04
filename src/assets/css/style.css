@@ -91,12 +91,12 @@ a {
 .main-textblock {
     position: relative;
     z-index: 2;
-    max-width: 1280px;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 275px 0;
+    padding: 350px 0 300px 0;
     color: #fff;
     text-align: center;
 }
@@ -172,6 +172,54 @@ h1 {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.text-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #121416;
+    padding: 40px 0;
+}
+
+.text-with-icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.icon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.icon-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.simple-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.simple-text, p {
+    margin: 0;
 }
 
 .posts {
