@@ -173,3 +173,143 @@ h1 {
     align-items: center;
     gap: 4px;
 }
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.post-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-image-wrapper {
+    position: relative;
+}
+
+.post-image-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+    z-index: 1;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+    background-size: cover;
+    height: 420px;
+}
+
+.post-overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: 30px;
+}
+
+.category {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.post-icon {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post-content {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #6C757D;
+    margin-top: 20px;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.post-author-photo {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.post-author-name {
+    color: #121416;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+.post-shares {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.post-descr {
+    font-size: 20px;
+    color: #6C757D;
+    margin: 25px 0 0 0;
+}
+
+.post-link {
+    width: max-content;
+    font-size: 24px;
+    font-weight: 700;
+    color: #121416;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px #121416 solid;
+}

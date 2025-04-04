@@ -23,7 +23,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: 'src/lang', to: 'lang' },
-                { from: 'src/assets/svg', to: 'assets/svg' }
+                { from: 'src/assets/svg', to: 'assets/svg' },
+                { from: 'src/assets/img', to: 'assets/img' }
             ],
         }),
     ],

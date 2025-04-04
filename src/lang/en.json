@@ -23,8 +23,5 @@
     "number_views": "1.6K views",
     "number_shares": "1.2K shares",
 
-    "heading": "Welcome to the site!",
-    "description": "This is the home page.",
-    "link_to_page2": "Go to Page 2",
-    "link_to_home": "Back to Home"
+    "post_view": "View post"
 }
