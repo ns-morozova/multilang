@@ -1,5 +1,6 @@
 {
     "title": "Inspiración",
+
     "nav_destinations": "Destinos",
     "nav_food": "Comida",
     "nav_wellbeing": "Bienestar",
@@ -7,17 +8,22 @@
     "nav_family": "Familia",
     "nav_lifestyle": "Estilo de vida",
     "navbar_button": "Llamado a la acción",
+
     "bread_home": "Inicio",
     "bread_growth": "Crecimiento",
+
     "main_heading": "Inspiración para viajar por personas reales",
     "main_descr": "Reserva con inteligencia, viaja con sencillez",
     "main_button": "Empieza a planificar tu viaje",
+
     "second_heading": "5 reglas eficaces para organizar tu espacio de trabajo",
     "second_descr": "Consejos de pareja que los terapeutas repiten constantemente",
     "by_who": "por Joanna Wellick",
     "time_read": "Lectura de 2 minutos",
     "number_views": "1.6K visualizaciones",
+
     "shares": "veces compartido",
+
     "category_aenean": "Aenean Eleifend",
     "category_aliquam": "Aliquam",
     "post_title1": "Integer Maecenas Eget Viverra",
@@ -26,11 +32,17 @@
     "author": "Joanna Wellick",
     "post_date": "28 de junio de 2018",
     "post_descr": "Elevación antes de Maecenas, cojín de montañas, palabras vacías, dolor y precio antes de lo dicho. Victoria: un final perfecto. Un camino tenso hacia la nutrición conduce de nuevo a las montañas.",
+    
     "post_view": "Ver publicación",
+    
     "category_travel": "Viajes",
     "travel_title": "Renderizado fotorrealista de Richird Norton como fotos reales",
     "travel_descr": "Incentiva progresivamente los sistemas cooperativos mediante funciones técnicamente sólidas. Produce datos fluidos con credibilidad.",
     "travel_button": "Empieza a planificar tu viaje",
+
+    "destinations_title": "Destinos principales",
+    "destinations_descr": "Tacha un destino más de tu lista con uno de nuestros viajes más populares en 2022",
+    "destination_title": "República Dominicana",
 
     "designed": "Diseñado y desarrollado por <strong>XP DESIGN</strong>"
 }
