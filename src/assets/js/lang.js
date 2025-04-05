@@ -7,7 +7,7 @@ export function setupLangSwitcher() {
             .then((data) => {
                 document.querySelectorAll('[data-i18n]').forEach(el => {
                     const key = el.getAttribute('data-i18n');
-                    if (data[key]) el.textContent = data[key];
+                    if (data[key]) el.innerHTML = data[key];
                 });
                 localStorage.setItem('lang', lang);
                 switcher.value = lang;

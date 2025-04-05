@@ -445,3 +445,14 @@ h2 {
 .footer-icon-block img {
     width: 30px;
 }
+
+.selector {
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 90%;
+    font-size: 24px;
+}
+
+.selector:focus {
+    outline: none;
+}
