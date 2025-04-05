@@ -160,7 +160,7 @@ h2 {
 }
 
 .second-textblock {
-    max-width: 1110px;
+    max-width: 1300px;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
@@ -193,7 +193,7 @@ h2 {
     max-width: 1200px;
     margin: 0 auto;
     color: #121416;
-    padding: 40px 0;
+    padding: 70px 0 100px 0;
 }
 
 .text-with-icon {
@@ -225,16 +225,45 @@ h2 {
     gap: 5px;
 }
 
+.big-text-block h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
 .simple-text {
     display: flex;
     flex-direction: column;
     gap: 30px;
     font-size: 18px;
     line-height: 33px;
+    margin-bottom: 80px;
 }
 
-.simple-text, p {
+.simple-text p {
     margin: 0;
+}
+
+.simple-text ul {
+    margin-left: 50px;
+}
+
+.quote {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0;
+}
+
+.quote h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.quote img {
+    margin-top: 12px;
 }
 
 .posts {
