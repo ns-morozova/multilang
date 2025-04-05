@@ -1,5 +1,9 @@
 body {
-  font-family: sans-serif;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
 }
 
 .container {
@@ -415,8 +419,8 @@ h2 {
     cursor: pointer;
 }
 
-.destinations {
-    padding: 40px 0;
+.section {
+    padding: 80px 0;
 }
 
 .destinations-text {
@@ -487,6 +491,158 @@ h2 {
     inset: 0;
     background-color: rgba(0, 0, 0, 0.25);
     z-index: 1;
+}
+
+.categories {
+    position: relative;
+    display: flex;
+    gap: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 1px #D6D6D6 solid;
+}
+
+.categories span {
+    position: relative;
+    cursor: pointer;
+}
+
+.categories span:first-child::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #121416;
+}
+
+.posts-block {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+    color: #121416;
+}
+
+.posts-block > div:first-child {
+    grid-column: span 3;
+}
+
+.posts-block > div:last-child {
+    grid-column: span 2;
+}
+
+.first-post-block {
+    border: 1px #D6D6D6 solid;
+    padding: 25px;
+    display: flex;
+    gap: 40px;
+}
+
+.post-banner-block {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.post-banner-block img {
+    width: 600px;
+}
+
+.post-banner-block div {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6E6E6E;
+}
+
+.post-banner-block h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.post-banner-block p {
+    font-size: 14px;
+    color: #6E6E6E;
+}
+
+.post-view {
+    width: max-content;
+    font-size: 16px;
+    font-weight: 700;
+    color: #121416;
+    padding-bottom: 5px;
+    border-bottom: 1px #121416 solid;
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 70px;
+}
+
+.post-item {
+    display: flex;
+    gap: 20px;
+}
+
+.post-item img {
+    width: 144px;
+}
+
+.post-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.58px;
+}
+
+.post-item p {
+    font-size: 14px;
+    color: #121416;
+    margin-top: 12px;
+}
+
+.second-post-block {
+    border: 1px #D6D6D6 solid;
+    padding: 25px;
+    padding-left: 50px;
+}
+
+.second-post-block h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.posts-manga {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.post-manga {
+    display: flex;
+    gap: 40px;
+}
+
+.post-manga img {
+    width: 270px;
+}
+
+.post-manga h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.58px;
+}
+
+.post-manga p {
+    font-size: 12px;
+    color: #121416;
+    margin-top: 24px;
 }
 
 .footer {
