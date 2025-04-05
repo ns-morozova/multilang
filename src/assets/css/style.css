@@ -4,7 +4,7 @@ body {
 
 .container {
     padding: 43px 0;
-    max-width: 1700px;
+    max-width: 1900px;
     margin: 0 auto;
 }
 
@@ -359,6 +359,7 @@ h2 {
 
 .post-descr {
     font-size: 20px;
+    line-height: 150%;
     color: #6C757D;
     margin: 25px 0 0 0;
 }
