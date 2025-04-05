@@ -247,7 +247,17 @@
                 </div>
             </div>
         </div>
+        <div class="button-scroll">↑</div>
     </footer>
+    <script>
+        const scrollBtn = document.querySelector('.button-scroll');
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 
 </html>
